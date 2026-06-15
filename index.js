@@ -65,3 +65,4 @@ client.on("messageCreate", async (message) => {
     return message.channel.send("🔊 Meeting time All users unmuted");
   }
 });
+client.login(process.env.TOKEN);
